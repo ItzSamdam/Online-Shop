@@ -7,8 +7,96 @@
     <title>Shopping Website</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
 </head>
 <body>
-    
+    <nav>
+        <div class="social-call">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="phone">
+                <span>Call: +234567890065</span>
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="site-logo">
+            </a>
+            <ul class="menu">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Men</a>
+                    <span class="sale-label">Sale</span>
+                </li>
+                <li><a href="#"> Women</a></li>
+                <li><a href="#"> Kids</a></li>
+                <li><a href="#"> Shop</a></li>
+                <li><a href="#"> Contact</a></li>
+            </ul>
+            <div class="right-menu">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                    <span class="num-cart-product">0</span>
+                    </i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search-bar">
+        <div class="search-input">
+            <input type="text" placeholder="Search...">
+            <a href="#" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="login-form">
+            <a href="#" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>User Sign In</strong>
+            <form action="">
+                <input type="email" placeholder="Email@gmail.com" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <input type="submit" value="Login">
+            </form>
+            <div class="form-btns">
+                <a href="#" class="forget"> Forget Your Password?</a>
+                <a href="#" class="sign-up-btn"> Create a New Account</a>
+            </div>
+        </div>
+
+        <div class="sign-up-form">
+            <a href="#" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>User Sign Up</strong>
+            <form action="">
+                <input type="text" placeholder="Full Name" name="fullname">
+                <input type="email" placeholder="user@gmail.com" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <input type="password" placeholder="Confirm Password" name="password">
+                <input type="submit" value="Sign Up">
+            </form>
+            <div class="form-btns">
+                <a href="#" class="forget"> Already Have Account?</a>
+            </div>
+        </div>
+    </div>
 </body>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/main.js"></script>
 </html>

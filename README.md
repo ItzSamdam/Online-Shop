@@ -9,9 +9,13 @@ This is a very simple e-commerce website
 
 ### Requirements
 Basic knowledge of:
+
 :star2: HTML
+
 :star2: CSS
+
 :star2: JavaScript and  
+
 :star2: Responsive Web Design
 ### Built With
 - [Visual Studio Code](https://code.visualstudio.com)
